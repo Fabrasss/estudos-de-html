@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <h2>Informação pessoal</h2>
+        <label for="fullname">Nome Completo:</label>
+        <p><input type="text" name="fullname" id="fullname"></p>
+        <p><input type="reset" value="Limpar o Nome"></p>
+        <p><input type="submit" value="Enviar"></p>
+        </form>
+        <hr>
+
+        <form>
+            <p>
+                <label for="date">Date:</label>
+                 <input type="date" name="date" id="date">
+                 <input type="reset" value="Limpar">
+            </p>
+            </form>
+        <hr>
+        <p>Endereço: <input type="text" name="address" id="address" placeholder="e.g. 41
+            John St., Upper Suite 1"></p>
+        <hr>
+        <!-- atributo required -->
+        <p>Address: <input type="text" name="address" id="address" required
+            placeholder="e.g. 41 John St., Upper Suite 1"></p>
+        <hr>
+        <p> <label for="comment">Deixa o seu comentário aqui:</label> <br>
+            <textarea id="comment" name="comment" rows="10" cols="50">
+            Comente aqui !!!!
+            </textarea>
+            </p>
+        <hr>
+        <p><label for="browser">Favorito Browser:</label>
+            <select name="browser" id="browser">
+            <option value="firefox">Mozilla Firefox</option>
+            <option value="chrome">Google Chrome</option>
+            <option value="opera">Opera</option>
+            <option value="edge">Microsoft Edge</option>
+            </select>
+            </p>
+        <hr>
+        <p>Favorito Browser:</p>
+        <p>
+             <input type="radio" id="browser-firefox" name="browser" value="firefox"
+            checked>
+             <label for="browser-firefox">Mozilla Firefox</label>
+            </p>
+            <p>
+             <input type="radio" id="browser-chrome" name="browser" value="chrome">
+             <label for="browser-chrome">Google Chrome</label>
+            </p>
+            <p>
+             <input type="radio" id="browser-opera" name="browser" value="opera">
+             <label for="browser-opera">Opera</label>
+            </p>
+            <p>
+            <input type="radio" id="browser-edge" name="browser" value="edge">
+            <label for="browser-edge">Microsoft Edge</label>
+            </p>
+         <hr>
+         <p>Favorite Browser:</p>
+            <p>
+              <input type="checkbox" id="browser-firefox" name="browser" value="firefox"
+            checked>
+              <label for="browser-firefox">Mozilla Firefox</label>
+            </p>
+            <p>
+              <input type="checkbox" id="browser-chrome" name="browser" value="chrome"
+            checked>
+              <label for="browser-chrome">Google Chrome</label>
+            </p>
+            <p>
+              <input type="checkbox" id="browser-opera" name="browser" value="opera">
+              <label for="browser-opera">Opera</label>
+            </p>
+            <p>
+            <input type="checkbox" id="browser-edge" name="browser" value="edge">
+            <label for="browser-edge">Microsoft Edge</label>
+            </p>
+            <fieldset>
+                <legend>Favorito Browser</legend>
+                <p>
+                  <input type="checkbox" id="browser-firefox" name="browser" value="firefox"
+                checked>
+                  <label for="browser-firefox">Mozilla Firefox</label>
+                </p>
+                <p>
+                  <input type="checkbox" id="browser-chrome" name="browser" value="chrome"
+                checked>
+                  <label for="browser-chrome">Google Chrome</label>
+                </p>
+                <p>
+                  <input type="checkbox" id="browser-opera" name="browser" value="opera">
+                  <label for="browser-opera">Opera</label>
+                </p>
+                <p>
+                  <input type="checkbox" id="browser-edge" name="browser" value="edge">
+                  <label for="browser-edge">Microsoft Edge</label>
+                </p>
+                </fieldset>
+                <hr>
+                <input type="hidden" id="form-token" name="form-token" value="e730a375-b953-4393-
+847d-2dab065bbc92">
+
+                       
+            
+        
+    
+</body>
+</html>
